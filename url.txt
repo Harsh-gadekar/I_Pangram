@@ -1,0 +1,28 @@
+employee
+
+{
+        "emp_name": "Gaurav",
+        "emp_dept": "Frontend",
+        "emp_email": "gaurav@gmail.com",
+        "emp_phone": 12312312,
+        "emp_address": "Nagpur"
+}
+
+http://localhost:4000/employee/readEmpDetail
+http://localhost:4000/employee/addEmpDetail
+http://localhost:4000/employee/updateEmpDetail/id
+http://localhost:4000/employee/deleteEmpDetail/id
+
+department
+
+{
+
+        "dept_name": "Software Development",
+        "dept_desc": "Frontend"
+}
+
+http://localhost:4000/department/readDepartment
+
+
+http://localhost:4000/user/login
+http://localhost:4000/user/signup
